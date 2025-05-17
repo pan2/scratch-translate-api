@@ -1,0 +1,6 @@
+このscratchblocksは英語コードを日本語コードに翻訳するためのものです。
+node ./translate_script.js　を実行することで翻訳されます。
+scratchblocksライブラリを使っていますが、このライブラリを若干修正しているため、scratchblocksライブラリが更新された際、動かなくなる可能性があります。
+なお、node_modules/scratchblocksは最新版にしてOKです(これはvueでしか使ってない)。
+
+scratchblocks/syntax/model.jsでdoc.translate('ja') を呼び出した際に、Block.translate に言語オブジェクトではなく言語コード文字列が渡ってしまうのでそこだけ修正されています。
