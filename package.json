@@ -16,6 +16,6 @@
     "jsdom": "^26.1.0"
   }
   "engines": {
-    "node": "18.x"                  // Herokuで使うNode.jsのバージョン (例: 18.x)
+    "node": "18.x"
   }
 }
